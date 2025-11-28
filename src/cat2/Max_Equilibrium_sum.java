@@ -37,22 +37,23 @@ class Max_Equilibrium_sum {
     }
 
     //bruteforce approach
-//    static int equilibriumsum(int[] arr){
-//        int n=arr.length;
-//
-//        for(int i=0;i<n;i++){
-//            int leftsum=0;
-//            int rightsum=0;
-//            for(int l=0;l<i;l++){
-//                leftsum+=arr[l];
-//            }
-//            for(int r=i+1;r<n;r++){
-//                rightsum+=arr[r];
-//            }
-//            if(leftsum==rightsum){
-//                return rightsum;
-//            }
-//        }return -1;
-//
-//    }
+    static int equilibriumsum(int[] arr){
+        int n=arr.length;
+        int maxsum=Integer.MIN_VALUE;
+
+        for(int i=0;i<n;i++){
+            int leftsum=0;
+            int rightsum=0;
+            for(int l=0;l<i;l++){
+                leftsum+=arr[l];
+            }
+            for(int r=i+1;r<n;r++){
+                rightsum+=arr[r];
+            }
+            if(leftsum==rightsum){
+                maxsum=Math.max(maxsum,leftsum);
+            }
+        }return maxsum;
+
+    }
 }

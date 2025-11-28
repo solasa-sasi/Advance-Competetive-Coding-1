@@ -20,11 +20,11 @@ public class block_swap_algo {
         if(d>n){
             d=d%n;
         }
-        //Step 1️⃣ – Reverse the whole array
+        //Step 1 – Reverse the whole array
         reverse(arr,0,n-1);
-        //Step 2️⃣ – Reverse the first (n - d)
+        //Step 2 – Reverse the first (n - d)
         reverse(arr,0,n-1-d);
-        //Step 3️⃣ – Reverse the last d
+        //Step 3 – Reverse the last d
         reverse(arr,n-d,n-1);
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");

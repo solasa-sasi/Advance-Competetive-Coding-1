@@ -33,5 +33,5 @@ public class MajorityEleInArr {
 
 //time complexity=O(n^2)
 //space complexity=O(n)
-//to reduce the solution to O(n) timecomplexity we can use boyermoors voting algorithm
+//to reduce the solution to O(n) timecomplexity we can use boyermoores voting algorithm
 

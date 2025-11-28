@@ -1,7 +1,7 @@
 package fat;
 
 import java.util.*;
-public class Acp {
+public class ActivitySelectionP {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

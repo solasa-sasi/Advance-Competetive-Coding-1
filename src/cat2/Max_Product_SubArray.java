@@ -12,7 +12,8 @@ public class Max_Product_SubArray {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.println(maxproduct(arr));
+//        System.out.println(maxproduct(arr));
+        System.out.println(brutemaxProduct(arr));
 
 
 
