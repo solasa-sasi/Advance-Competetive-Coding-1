@@ -7,7 +7,7 @@
 
 <hr>
 
-<h2>📘 Problem List</h2>
+<h2>Problem List</h2>
 
 <h3>Easy</h3>
 
@@ -52,7 +52,7 @@
 
 <hr>
 
-<h2>📂 Folder Structure</h2>
+<h2>Folder Structure</h2>
 
 <pre>
 Advanced-Competitive-Coding/
@@ -71,7 +71,7 @@ Advanced-Competitive-Coding/
 
 <hr>
 
-<h2>🎯 Purpose</h2>
+<h2>Purpose</h2>
 
 <p>
 This repository serves as a baseline for competitive programming and placement prep.
@@ -92,7 +92,7 @@ It helps juniors understand problem patterns and seniors revise important algori
 
 <hr>
 
-<h2>🤝 Contributions</h2>
+<h2>Contributions</h2>
 
 <p>
 Contributions are welcome!  
