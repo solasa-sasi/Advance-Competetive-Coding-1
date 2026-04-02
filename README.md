@@ -80,7 +80,7 @@ It helps juniors understand problem patterns and seniors revise important algori
 
 <hr>
 
-<h2>⚡ How to Use</h2>
+<h2> How to Use</h2>
 
 <pre>
 1. Start with EASY to build basics.
